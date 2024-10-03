@@ -1,0 +1,71 @@
+.hero {
+    padding: 5.6vw;
+    min-height: 45vw;
+    background-image: url(../images/capa.jpg);
+    background-size: cover;
+
+    &__content {
+        max-width: 530px;
+
+        &__branding {
+            max-width: 450px;
+            margin: 0 auto;
+            margin-top: 90px;
+        }
+
+        &__title {
+            font-family: Netflix, sans-serif;
+            margin: 0 auto;
+            margin-top: 14px;
+            font-size: 28px;
+            margin-left: 40px;
+
+            &__master {
+                margin-left: 45px;
+
+            }
+
+        }
+
+        &__text {
+            color: #fff; 
+            margin-top: 15px;
+            font-weight: 200;
+            margin: 0 15px 0 10px;
+            font-size: 16px;
+
+            &__initial {
+                color: #fff;
+                font-weight: 200;
+                margin-left: -5px;
+                font-size: 16px;
+            }
+
+            &__indication {
+                color: #fff;
+                font-weight: 200;
+                margin: 0 15px 0 15px;
+                border: 1px solid #a3a3a3;
+                font-size: 16px;
+            }
+  
+        }
+
+        &__preservation {
+            font-weight: 100;
+            color: #ffffff;
+            font-size: 12px;
+            
+            
+        }
+        &__p {
+            margin-left: 40px;
+            color: #a3a3a3;
+            margin-top: 16px;
+            font-size: 14px;
+
+        }
+
+        
+    }
+}

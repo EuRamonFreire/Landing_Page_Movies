@@ -5,8 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Landing Page - Movie</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css" integrity="sha384-NvKbDTEnL+A8F/AA5Tc5kmMLSJHUO868P+lDtTpJIeQdGYaUIuLr4lVGOEA1OcMy" crossorigin="anonymous">
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-    
+    <header class="header">
+        <a href="#" class="header__logo">
+            <img class="header__logo__image" src="./dist/images/logo.png" alt="">
+        </a>
+        <ul class="header__navegation">
+            <li>
+                <a class="header__navegation__item" href="#">Home</a>
+            </li>
+            <li>
+                <a class="header__navegation__item" href="#">TV Shows</a>
+            </li>
+            <li>
+                <a class="header__navegation__item" href="#">Movies</a>
+            </li>
+            <li>
+                <a class="header__navegation__item" href="#">Lates</a>
+            </li>
+            <li>
+                <a class="header__navegation__item" href="#">My List</a>
+            </li>
+        </ul>
+        <div class="header__search">
+            <input class="header__search__input" type="text" placeholder="Search">
+            <span class="header__search__span material-symbols-outlined">search</span>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__content__branding">
+                <img src="./dist/images/banner.png" alt="Banner" class="hero__content__branding">
+            </h1>
+            <h4 class="hero__content__title" 
+            style="color: #fff">Voo 370: O Avião que Desapareceu
+            </h4>
+            <h3 class="hero__content__title__master" >
+                <span class="hero__content__text__initial">2020</span>
+                <span class="hero__content__preservation">|</span>
+                <span class="hero__content__text__indication"> A12 </span>
+                <span class="hero__content__preservation">|</span>
+                <span class="hero__content__text">1 Temporada</span>
+                <span class="hero__content__preservation">|</span>
+                <span class="hero__content__text">Documentário</span>
+                <span class="hero__content__preservation">|</span> 
+            </h3>
+            <p class="hero__content__p">Em 2014, um avião com 239 pessoas a bordo desapareceu do radar. Esta série documental investiga o impressionante mistério do voo MH370.</p>
+            
+        </div>
+    </section>
 </body>
 </html>

@@ -1,6 +1,32 @@
-$bgColor: rgb(0, 0, 0);
+@use 'header';
+@use 'hero';
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:   'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
 
 body {
-    background-color: $bgColor;
+    background-color: #131313;
 }
+
+@font-face {
+    font-family: Netflix;
+    src: url(../../assets/fonts/netflix-sans-font/NetflixSans-Regular.woff2);
+}
+
+@font-face {
+    font-family: helvetica, sans-serif;
+    src: url(../../assets/fonts/helvetica-neue-5/HelveticaNeueBold.otf);
+}
+
+//configuração do hero
+
+
+
+
+
