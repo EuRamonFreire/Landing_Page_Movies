@@ -1,0 +1,100 @@
+.episodios{
+    
+    .container{
+        color: #fff;
+        display: flex;
+        margin-top: 45px;
+    }
+
+    &__header {
+        margin-left: 125px;
+        font-family: Netflix, sans-serif;
+        margin-right: 25px;
+    }
+
+    &__subheader {
+        font-family: Netflix,sans-serif;
+        font-weight: 100;
+        color: #a3a3a3;
+    }
+
+    .shows__description {
+        color: #fff;
+        margin-top: 25px;
+
+        &__title {
+        font-family: Netflix,sans-serif;
+        font-weight: 200;
+        color: #fff;
+        margin-left: 125px;
+
+        }
+
+        &__text {
+            margin-left: 125px;
+            font-family: Netflix,sans-serif;
+            color: #a3a3a3;
+            font-weight: 100;
+            font-size: 14px;
+        }
+
+    }
+
+    .list {
+        color: #fff;
+        margin-top: 25px;
+        margin-bottom: 80px;
+        
+
+        &__initial {
+            display: flex;
+        }
+
+        &__1 {
+            margin-left: 125px;
+            margin-right: 10px;
+        
+        &__title {
+            margin-top: 25px;
+            cursor: pointer;
+            margin-bottom: 8px;
+            
+        }
+
+        &__text {
+            color:#a3a3a3;
+            font-weight: 100;
+            font-family: 14px;
+            font-family: Netflix,sans-serif;
+            margin-top: 25px;
+        }
+
+        }
+
+        &__2 {
+            
+            margin-right: 10px;
+        
+        &__title {
+            margin-top: 25px;
+            cursor: pointer;
+            margin-bottom: 8px;
+            
+        }
+
+        &__text {
+            color:#a3a3a3;
+            font-weight: 200;
+            font-family: 14px;
+            font-family: Netflix,sans-serif;
+            margin-top: 25px;
+        }
+
+        }
+
+        
+        
+
+    }
+
+}
