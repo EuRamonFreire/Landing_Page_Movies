@@ -25,7 +25,33 @@ body {
     src: url(../../assets/fonts/helvetica-neue-5/HelveticaNeueBold.otf);
 }
 
-//configuração do episodios
+//configuração do titulis semelhantes
 
+.semelhantes{
+    .container{
+        color: #fff;
+        margin-top: 45px;
+    
+        &__title{
+           margin-left: 125px;
+           font-family: Netflix, sans-serif;
+           font-weight: 200;
+                   }
+    }
+
+    &__list{
+        margin: 125px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 24px;
+        margin-top: 16px;
+    }
+
+    &__img{
+        width: 425px;
+        cursor: pointer;
+    }
+
+}
 
 
