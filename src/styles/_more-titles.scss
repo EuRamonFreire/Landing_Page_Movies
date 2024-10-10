@@ -8,6 +8,12 @@
            font-family: Netflix, sans-serif;
            font-weight: 200;
         }
+
+        @media (max-width:640px) {
+           &__title{
+            margin-left: 10px;
+           }
+        }
     }
 
     &__list{
@@ -22,5 +28,28 @@
         width: 425px;
         cursor: pointer;
     }
+    
+    @media (max-width:768px) {
+        &__list{
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__img{
+            max-width: 250px;
+        }
+   
+    }
+    @media (max-width:640px) {
+        &__list{
+            margin-left: 10px;
+            margin-right: 10px;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        &__img{
+            max-width: 165px;
+        }
+    }
+
 
 }

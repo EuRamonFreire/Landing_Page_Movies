@@ -7,6 +7,12 @@
             font-weight: 100;
             color: #a3a3a3;
         }
+        @media (max-width:640px) {
+            font-size: 12px;
+            white-space: nowrap;
+            margin-left: 10px;
+
+        }
     }
 
     &__links{
@@ -22,6 +28,17 @@
             font-weight: 100;
             font-family: Netflix,sans-serif;
             
+        }
+
+
+        @media (max-width:640px) {
+            margin-left: 10px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            white-space: nowrap;
+            font-size: 12px;
+            gap: 10px;
+
         }
 
 
@@ -51,5 +68,11 @@ select {
         color: #131313;
     }
 }
+@media (max-width:640px) {
+    align-items: center;
+
+}
+
+
 
 }

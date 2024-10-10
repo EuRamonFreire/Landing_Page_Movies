@@ -18,6 +18,12 @@
         color: #a3a3a3;
     }
 
+    @media (max-width:640px) {
+        &__header {
+            margin-left: 10px;
+        }
+    }
+
     .shows__description {
         color: #fff;
         margin-top: 25px;
@@ -38,7 +44,19 @@
             font-size: 14px;
         }
 
+        @media (max-width:640px) {
+            &__title {
+                margin-left: 10px;
+            }
+            &__text {
+                margin-left: 10px;
+            }
+        }
+
     }
+    //fim do container
+
+
 
     .list {
         color: #fff;
@@ -68,33 +86,26 @@
             font-family: Netflix,sans-serif;
             margin-top: 25px;
         }
-
         }
 
-        &__2 {
-            
-            margin-right: 10px;
-        
-        &__title {
-            margin-top: 25px;
-            cursor: pointer;
-            margin-bottom: 8px;
-            
+        @media (max-width:640px) {
+            &__1 {
+                margin-left: 1px;
+               &__image{
+                max-width: 355px;
+                margin-left: 10px;
+               }
+               &__title {
+                margin-left: 10px;
+                
+               }
+
+               &__text{
+                margin-left: 10px;
+               }
+
+
+            }
         }
-
-        &__text {
-            color:#a3a3a3;
-            font-weight: 200;
-            font-family: 14px;
-            font-family: Netflix,sans-serif;
-            margin-top: 25px;
-        }
-
-        }
-
-        
-        
-
     }
-
 }
